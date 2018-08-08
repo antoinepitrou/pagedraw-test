@@ -6,26 +6,44 @@
     flex-direction: column;
     flex-grow: 1;
     background: rgba(255,255,255,1);
+    min-height: 100vh;
 }
 
 .artboard-0 {
+    width: 0px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 0px;
+}
+
+.artboard-1 {
     display: flex;
     flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 0px;
+    min-height: fit-content;
+}
+
+.artboard-1-0 {
+    height: 0px;
+    flex-grow: 0;
+    flex-basis: 0px;
 }
 
 .artboard-rectangle-0 {
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 0px;
+    min-height: 100vh;
     padding-top: 34px;
-    padding-bottom: 122px;
     background: linear-gradient(52deg, rgb(255, 177, 121), rgb(255, 73, 33));
 }
 
-.artboard-0-0-0 {
+.artboard-1-1-0 {
     display: flex;
     flex-shrink: 0;
-    padding-left: 615px;
-    padding-right: 615px;
+    justify-content: center;
 }
 
 .artboard-image-0 {
@@ -35,25 +53,25 @@
     border-width: 0px;
 }
 
-.artboard-0-0-1 {
+.artboard-1-1-1 {
     display: flex;
     flex-shrink: 0;
-    margin-top: 32px;
+    margin-top: 25px;
     padding-left: 320px;
     padding-right: 322px;
 }
 
-.artboard-0-0-1-0 {
+.artboard-1-1-1-0 {
     display: flex;
     flex-direction: column;
 }
 
-.artboard-0-0-1-0-0 {
+.artboard-1-1-1-0-0 {
     display: flex;
     flex-shrink: 0;
 }
 
-.artboard-0-0-1-0-0-0 {
+.artboard-1-1-1-0-0-0 {
     width: 798px;
     height: 588px;
     flex-shrink: 0;
@@ -64,8 +82,8 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding-top: 76px;
-    padding-bottom: 443px;
+    padding-top: 83px;
+    padding-bottom: 436px;
     position: absolute;
     top: 0px;
     left: 1px;
@@ -74,7 +92,7 @@
     background: rgba(255,255,255,1);
 }
 
-.artboard-0-0-1-0-0-0-0-0 {
+.artboard-1-1-1-0-0-0-0-0 {
     display: flex;
     flex-shrink: 0;
     padding-left: 168px;
@@ -100,8 +118,8 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding-top: 147px;
-    padding-bottom: 57px;
+    padding-top: 154px;
+    padding-bottom: 50px;
     position: absolute;
     top: 342px;
     left: 0px;
@@ -109,7 +127,7 @@
     background-size: 100% 100%;
 }
 
-.artboard-0-0-1-0-0-0-1-0 {
+.artboard-1-1-1-0-0-0-1-0 {
     display: flex;
     flex-shrink: 0;
     padding-left: 348px;
@@ -127,9 +145,29 @@
     height: 247px;
     flex-grow: 1;
     position: absolute;
-    top: 184px;
+    top: 191px;
     left: 235px;
     border-width: 0px;
+}
+
+.artboard-1-1-2 {
+    width: 0px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    flex-basis: 0px;
+}
+
+.artboard-1-2 {
+    height: 0px;
+    flex-grow: 0;
+    flex-basis: 0px;
+}
+
+.artboard-2 {
+    width: 0px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    flex-basis: 0px;
 }
 
 * {
